@@ -1,0 +1,24 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Weather with node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brownbike/node-weather.git"
+  },
+  "author": "Scott McKeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brownbike/node-weather/issues"
+  },
+  "homepage": "https://github.com/brownbike/node-weather#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "request": "^2.85.0",
+    "yargs": "^11.0.0"
+  }
+}
